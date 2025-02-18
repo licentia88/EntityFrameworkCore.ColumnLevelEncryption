@@ -22,14 +22,14 @@
 
 
     <PropertyGroup>
-        <PackageType>Template</PackageType>
-        <Version>8.0.10</Version>
+        <PackageType>Dependency</PackageType>
+        <Version>1.0.0</Version>
         <PackageId>EntityFrameworkCore.ColumnLevelEncryption</PackageId>
         <Title>Column Level Encryption</Title>
         <Company>ASIM GUNDUZ</Company>
         <Authors>ASIM GUNDUZ</Authors>
         <Copyright>ASIM GUNDUZ © 2025</Copyright>
-        <Description>Column Level Encryption for EntityFrameworkCore</Description>
+        <Description>Column Level Encryption for EntityFrameworkCore 8.0.10</Description>
         <PackageTags>ColumnLevelEncryption;ColumnEncryption;EntityFrameworkCore.ColumnLevelEncryption;EntityFrameworkCore.ColumnEncryption</PackageTags>
         <PackageCopyright>ASIM GUNDUZ © 2025</PackageCopyright>
         <PackageProjectUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption</PackageProjectUrl>
