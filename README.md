@@ -1,0 +1,2 @@
+# EntityFrameworkCore.ColumnLevelEncryption
+Column Leven Encryption For EntityFrameworkCore
