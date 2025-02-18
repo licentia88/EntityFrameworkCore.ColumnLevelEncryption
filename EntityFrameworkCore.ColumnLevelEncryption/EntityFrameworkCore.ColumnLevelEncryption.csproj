@@ -17,6 +17,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
         <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="Assets/icon.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 
@@ -34,7 +35,7 @@
         <PackageProjectUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryType>git</RepositoryType>
-        <PackageIconUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption/blob/main/EntityFrameworkCore.ColumnLevelEncryption/icon.png?raw=true</PackageIconUrl>
+        <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption</RepositoryUrl>
     </PropertyGroup>
 </Project>

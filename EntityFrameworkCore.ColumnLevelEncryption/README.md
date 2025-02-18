@@ -3,6 +3,10 @@
 ## Overview
 This library provides a simple way to encrypt and decrypt column-level data in Entity Framework Core using an encryption provider.
 
+## Let's Connect!
+I appreciate every star ⭐ that my projects receive, and your support means a lot to me! If you find my projects useful or enjoyable, please consider giving them a star.
+
+
 ## Features
 - Automatic encryption and decryption of string properties marked with `@EncryptColumn`.
 - Uses AES encryption for secure data storage.
@@ -10,6 +14,8 @@ This library provides a simple way to encrypt and decrypt column-level data in E
 
 ## Installation
 To use this package, add the required dependencies to your .NET project:
+
+You can install this template using [NuGet](https://www.nuget.org/packages/MagicOnionGenericTemplate):
 
 ```sh
 // Install EF Core and required packages
