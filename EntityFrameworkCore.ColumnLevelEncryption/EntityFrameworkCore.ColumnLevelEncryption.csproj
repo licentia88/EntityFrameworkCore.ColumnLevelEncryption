@@ -1,13 +1,44 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>true</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <EnableDefaultItems>true</EnableDefaultItems>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageOutputPath>.</PackageOutputPath>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+        <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
 
+
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <Version>8.0.10</Version>
+        <PackageId>EntityFrameworkCore.ColumnLevelEncryption</PackageId>
+        <Title>Column Level Encryption</Title>
+        <Company>ASIM GUNDUZ</Company>
+        <Authors>ASIM GUNDUZ</Authors>
+        <Copyright>ASIM GUNDUZ © 2025</Copyright>
+        <Description>Column Level Encryption for EntityFrameworkCore</Description>
+        <PackageTags>ColumnLevelEncryption;ColumnEncryption;EntityFrameworkCore.ColumnLevelEncryption;EntityFrameworkCore.ColumnEncryption</PackageTags>
+        <PackageCopyright>ASIM GUNDUZ © 2025</PackageCopyright>
+        <PackageProjectUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryType>git</RepositoryType>
+        <PackageIconUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption/blob/main/EntityFrameworkCore.ColumnLevelEncryption/icon.png?raw=true</PackageIconUrl>
+        <RepositoryUrl>https://github.com/licentia88/EntityFrameworkCore.ColumnLevelEncryption</RepositoryUrl>
+    </PropertyGroup>
 </Project>
+
+
+ 
+ 
