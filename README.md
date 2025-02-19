@@ -15,7 +15,7 @@ I appreciate every star ⭐ that my projects receive, and your support means a l
 ## Installation
 To use this package, add the required dependencies to your .NET project:
 
-You can install this template using [NuGet](https://www.nuget.org/packages/MagicOnionGenericTemplate):
+You can install this template using [NuGet](https://www.nuget.org/packages/EntityFrameworkCore.ColumnLevelEncryption):
 
 ```sh
 // Install EF Core and required packages
